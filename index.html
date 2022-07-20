@@ -3,35 +3,43 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="robots" content="noindex,nofollow" />
-    <title>MNMLSM Theme LinkFree</title>
+    <title>Victor's links</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script src="script.js"></script>
   </head>
-
   <body>
-    <div class="container">
-      <div class="content">
+    <div id="vanta"></div>
+    <main class="animated">
+      <header>
         <img
-          id="userPhoto"
           src="https://avatars.githubusercontent.com/u/59139458"
-          alt="User Photo"
+          alt="user photo"
         />
-
-        <h1 id="userName">
-          <a href="#" rel="noopener">Victor Garcia Mestre </a>
-        </h1>
-        <h2 id="userDescription">Front End Developer</h2>
-        <div id="links">
-          <a
-            class="link"
-            href="https://vgarmes.github.io/portfolio"
-            rel="noopener"
-            >⚡ See my portfolio</a
+        <h1>@vgarmes</h1>
+      </header>
+      <ul>
+        <li>
+          <a href="https://vgarmes.github.io/portfolio/">
+            <img src="./img/homepage.svg" alt="home" width="20" />
+            Portfolio</a
           >
-        </div>
-      </div>
-    </div>
+        </li>
+        <li>
+          <a href="https://github.com/vgarmes"
+            ><img src="./img/github.svg" alt="github" width="20" />Github</a
+          >
+        </li>
+        <li>
+          <a href="https://twitter.com/vgmestre">
+            <img src="./img/twitter.svg" alt="twitter" width="20" />Twitter</a
+          >
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
